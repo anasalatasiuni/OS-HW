@@ -1,0 +1,12 @@
+Templates
+Public
+Downloads
+Desktop
+Videos
+Pictures
+Music
+paru
+Documents
+des
+ex1.sh
+week1

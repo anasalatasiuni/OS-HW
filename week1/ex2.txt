@@ -1,0 +1,20 @@
+   56  ls
+   57  paru cow say
+   58  cowsay -f Hi
+   59  cowsay  Hi
+   60  cowsay Manjaro is the best linux distro
+   61  cowsay BTW I USE ARCH
+   62  man cowsay
+   63  paru ani-cli
+   64  ani-cli 
+   65  paru neofetch
+   66  neofetch 
+   67  history 
+   68  cd week1/
+   69  ls
+   70  vim ex2.sh 
+   71  vim ex2.sh 
+   72  chmod +x ex2.sh 
+   73  ./ex2.sh 
+   74  vim ex2.sh 
+   75  ./ex2.sh 
