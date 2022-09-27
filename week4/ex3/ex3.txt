@@ -1,0 +1,29 @@
+n = 3 
+
+a.out─┬─a.out─┬─a.out───a.out
+      │       └─a.out
+      ├─a.out───a.out
+      └─a.out
+
+the parent process will create three children: the first one will create two childern, the second will create one child, and the last one won't create any. Then the chlidren of the child process will fork and so it goes till the end of the loop.
+
+n = 5
+
+a.out─┬─a.out─┬─a.out─┬─a.out─┬─a.out───a.out
+      │       │       │       └─a.out
+      │       │       ├─a.out───a.out
+      │       │       └─a.out
+      │       ├─a.out─┬─a.out───a.out
+      │       │       └─a.out
+      │       ├─a.out───a.out
+      │       └─a.out
+      ├─a.out─┬─a.out─┬─a.out───a.out
+      │       │       └─a.out
+      │       ├─a.out───a.out
+      │       └─a.out
+      ├─a.out─┬─a.out───a.out
+      │       └─a.out
+      ├─a.out───a.out
+      └─a.out
+
+The size if n=5 is 2^5
