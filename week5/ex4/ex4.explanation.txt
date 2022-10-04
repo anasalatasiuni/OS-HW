@@ -1,0 +1,27 @@
+this is the result of the script when run on my pc.
+$ ./ex4.sh 
+time when m = 1:
+real    0m5.423s
+user    0m5.422s
+sys     0m0.000s
+time when m = 2:
+real    0m2.850s
+user    0m5.615s
+sys     0m0.084s
+time when m = 4:
+real    0m2.256s
+user    0m8.441s
+sys     0m0.572s
+time when m = 10:
+real    0m2.435s
+user    0m15.483s
+sys     0m3.469s
+time when m = 100:
+real    0m2.773s
+user    0m18.724s
+sys     0m3.137s
+
+it is notable that the execution time goes down when the number of threads increases as more threads are involved
+in the processing. But when the number of threads is more than the real number of threads of the cpu the performance
+will not improve the performance. Instead it will waste time on creating and scheduling the threads. Also we notice 
+that ex3 is faster ex4 because locking mutex variables decrease performance.

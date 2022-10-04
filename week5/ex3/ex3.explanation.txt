@@ -1,0 +1,26 @@
+this is the result of the script when run on my pc.
+$ ./ex3.sh 
+time when m = 1:
+real    0m5.267s
+user    0m5.267s
+sys     0m0.000s
+time when m = 2:
+real    0m3.295s
+user    0m5.281s
+sys     0m0.000s
+time when m = 4:
+real    0m1.785s
+user    0m5.666s
+sys     0m0.004s
+time when m = 10:
+real    0m1.337s
+user    0m8.572s
+sys     0m0.004s
+time when m = 100:
+real    0m2.079s
+user    0m16.295s
+sys     0m0.008s
+
+it is notable that the execution time goes down when the number of threads increases as more threads are involved
+in the processing. But when the number of threads is more than the real number of threads of the cpu the performance
+will not improve the performance. Instead it will waste time on creating and scheduling the threads.
